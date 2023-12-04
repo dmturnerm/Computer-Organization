@@ -16,3 +16,8 @@ li $v0, 1
 move $a0, $t0
 syscall
 j exit
+illegal: 
+li $v0, 4
+la $a0, error
+syscall 
+j main
