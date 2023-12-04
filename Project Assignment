@@ -2,3 +2,8 @@ data
 prompt: .asciiz "\nPlease enter a positive integer >= 25: "
 error: .asciiz "\nIlegal number! Please try again."
 .text
+main: 
+li $v0, 4
+la $a0, prompt
+syscall
+li $v0, 5
