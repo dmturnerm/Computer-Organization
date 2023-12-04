@@ -11,3 +11,8 @@ syscall
 move $t0, $v0
 bge $t0, 25, legal
 j illegal
+legal: 
+li $v0, 1
+move $a0, $t0
+syscall
+j exit
