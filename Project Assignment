@@ -1,0 +1,4 @@
+data
+prompt: .asciiz "\nPlease enter a positive integer >= 25: "
+error: .asciiz "\nIlegal number! Please try again."
+.text
