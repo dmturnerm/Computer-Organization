@@ -9,3 +9,9 @@
     gcd:
         # Inputs: $a0 = first number, $a1 = second number
         # Outputs: $v0 = GCD
+
+.text
+    # Function to calculate GCD
+    gcd:
+        # Inputs: $a0 = first number, $a1 = second number
+        # Outputs: $v0 = GCD
