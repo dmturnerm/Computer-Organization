@@ -3,3 +3,9 @@
     promptM:    .asciiz "Enter the value of M (> 20): "
     promptN:    .asciiz "Enter the value of N (> 20): "
     error:      .asciiz "Illegal Number!\n"
+
+.text
+    # Function to calculate GCD
+    gcd:
+        # Inputs: $a0 = first number, $a1 = second number
+        # Outputs: $v0 = GCD
